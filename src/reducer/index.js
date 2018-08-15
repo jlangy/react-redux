@@ -1,3 +1,4 @@
+//Simple reducer
 import { combineReducers } from 'redux';
 import action from './actions.js';
 

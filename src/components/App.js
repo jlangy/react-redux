@@ -23,26 +23,24 @@ class App extends React.Component {
     render() {
       return (
         <div>
-            hi
-          {/* <h2>Type in a new Message:</h2>
+          <h2>Type in a new Message:</h2>
           <input
             value={this.state.input}
             onChange={this.handleChange}/><br/>
           <button onClick={this.submitMessage}>Submit</button>
           <ul>
+            {/* messages available due to mapStateToProps */}
             {this.props.messages.map( (message, idx) => {
                 return (
                    <li key={idx}>{message}</li>
                 )
               })
             }
-          </ul> */}
+          </ul>
         </div>
       );
     }
   };
-    
-
 
 
 export default App;
